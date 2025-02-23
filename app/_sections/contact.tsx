@@ -1,6 +1,6 @@
 import React from "react";
-import { DMSerif } from "../layout";
 import ContactForm from "@/components/global/contact_form";
+import { DMSerifText } from "@/lib/fonts";
 
 const Contact = () => {
   return (
@@ -16,7 +16,9 @@ const Contact = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center w-1/3">
-          <h2 className={`${DMSerif.className} text-[#333333] text-6xl mb-3`}>
+          <h2
+            className={`${DMSerifText.className} text-[#333333] text-6xl mb-3`}
+          >
             Get in touch
           </h2>
           <hr className="h-3 w-36 bg-[#333333]" />

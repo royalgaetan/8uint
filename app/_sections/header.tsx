@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { DMSerif } from "../layout";
 import DescriptionCard from "@/components/global/description_card";
 import Link from "next/link";
 import { holdingName } from "@/lib/constants";
+import { DMSerifText } from "@/lib/fonts";
 
 const HeaderSection = () => {
   return (
@@ -45,7 +45,7 @@ const HeaderSection = () => {
           {/* Content */}
           <div className="flex justify-between gap-5 pb-5">
             <div className="ml-5">
-              <h2 className={`${DMSerif.className} text-white text-7xl`}>
+              <h2 className={`${DMSerifText.className} text-white text-7xl`}>
                 Building the next generations of Apps.
               </h2>
             </div>

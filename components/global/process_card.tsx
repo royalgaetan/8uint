@@ -15,7 +15,7 @@ const ProcessCard = ({ title, subtitle, icon }: props) => {
       <div>
         <Icon
           className={cn(
-            "group-hover:stroke-[url(#gradient)] text-white fill-transparent transition-all duration-[1000] icon-gradient"
+            "group-hover:stroke-[url(#gradient)] text-white fill-transparent transition-all duration-700 icon-gradient"
           )}
           size={"2rem"}
           strokeWidth={"1px"}
@@ -28,7 +28,7 @@ const ProcessCard = ({ title, subtitle, icon }: props) => {
           </defs>
         </Icon>
       </div>
-      <h6 className="text-white font-normal group-hover:font-semibold transition-all duration-[1000] tracking-wide text-sm">
+      <h6 className="text-white font-normal group-hover:font-semibold transition-all duration-700 tracking-wide text-sm">
         {title}
       </h6>
       <p className="text-white font-thin tracking-wide text-xs">{subtitle}</p>

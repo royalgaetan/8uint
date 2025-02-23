@@ -6,7 +6,7 @@ const DescriptionCard = () => {
     <div className="w-auto h-full bg-white/30 p-5">
       <div>
         <Star
-          className="hover:fill-white fill-transparent transition-all duration-[1000]"
+          className="hover:fill-white fill-transparent transition-all duration-700"
           color="white"
           size={"2rem"}
           strokeWidth={"1px"}

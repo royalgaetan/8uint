@@ -1,5 +1,4 @@
 import React from "react";
-import { DMSerif } from "../layout";
 import {
   ChartSpline,
   CircleCheck,
@@ -9,6 +8,7 @@ import {
   LightbulbIcon,
 } from "lucide-react";
 import ProcessCard from "@/components/global/process_card";
+import { DMSerifText } from "@/lib/fonts";
 
 const OurProcess = () => {
   return (
@@ -24,7 +24,7 @@ const OurProcess = () => {
       </div>
       <div className="relative z-20 top-0 right-0 h-fit w-auto px-7 py-24 flex flex-1 gap-20 justify-center items-start">
         <div className="flex flex-col gap-1 items-center mb-10 w-1/3">
-          <h2 className={`${DMSerif.className} text-white text-6xl mb-3`}>
+          <h2 className={`${DMSerifText.className} text-white text-6xl mb-3`}>
             Our Process
           </h2>
           <hr className="h-3 w-36 bg-white" />

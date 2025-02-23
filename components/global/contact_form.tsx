@@ -24,9 +24,12 @@ const ContactForm = () => {
     },
   });
 
-  const onSubmit = async (formData: any) => {
+  const onSubmit = async (data: z.infer<typeof contactFormSchema>) => {
     setTransition(async () => {
       try {
+        // Parse form data
+        const formData = contactFormSchema.parse(data);
+
         // Init EmailJS
         emailjs.init({
           publicKey: process.env.NEXT_PUBLIC_EMAILJS_API_KEY,

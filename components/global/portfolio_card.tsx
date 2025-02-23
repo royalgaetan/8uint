@@ -37,7 +37,7 @@ const PortfolioCard = ({
         <div className="absolute z-20 top-0 h-full w-full flex flex-col items-end justify-between opacity-0 group-hover:opacity-100 transition-all duration-400 ">
           <div className="flex flex-1 justify-end mr-3 mt-3">
             <ArrowUpRight
-              className="stroke-[url(#gradient)] fill-transparent transition-all duration-[1000]"
+              className="stroke-[url(#gradient)] fill-transparent transition-all duration-700"
               size={"2rem"}
               strokeWidth={"2px"}
             >

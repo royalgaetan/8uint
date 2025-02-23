@@ -1,6 +1,6 @@
 import React from "react";
-import { DMSerif } from "../layout";
 import PortfolioCard from "@/components/global/portfolio_card";
+import { DMSerifText } from "@/lib/fonts";
 
 const Portfolio = () => {
   return (
@@ -9,7 +9,7 @@ const Portfolio = () => {
       className="mx-32 mb-44 mt-24 min-h-[100vh] flex flex-col gap-4 "
     >
       <div className="flex flex-col gap-1 items-center mb-10 w-1/2">
-        <h2 className={`${DMSerif.className} text-[#333333] text-6xl mb-3`}>
+        <h2 className={`${DMSerifText.className} text-[#333333] text-6xl mb-3`}>
           We build because we love that.
         </h2>
       </div>

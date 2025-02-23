@@ -1,5 +1,5 @@
+import { DMSerifText } from "@/lib/fonts";
 import React from "react";
-import { DMSerif } from "../layout";
 
 const AboutUs = () => {
   return (
@@ -9,7 +9,9 @@ const AboutUs = () => {
     >
       <div className=" w-[min(100%,600px)] h-auto">
         <div className="flex flex-col gap-1 items-center mb-10">
-          <h2 className={`${DMSerif.className} text-[#333333] text-6xl mb-3`}>
+          <h2
+            className={`${DMSerifText.className} text-[#333333] text-6xl mb-3`}
+          >
             Who are we?
           </h2>
           <hr className="h-3 w-64 bg-gradient-to-r from-[#ED9182]  to-[#82c9ff]" />
@@ -27,7 +29,7 @@ const AboutUs = () => {
           </p>
         </div>
         <p className="italic text-[#333333] mt-5">
-          "The future is written in the code."
+          &quot;The future is written in the code.&quot;
         </p>
       </div>
     </div>

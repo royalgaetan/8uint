@@ -16,7 +16,7 @@ const AboutUs = () => {
           </h2>
           <hr className="h-3 w-64 bg-gradient-to-r from-[#ED9182]  to-[#82c9ff]" />
         </div>
-        <div className="text-lg font-thin tracking-wider">
+        <div className="text-lg max-md:text-base font-thin tracking-wider">
           <p>
             We are individuals who master code, design, and human psychology,
             adopting velocity as a principle to deliver magic into the hands of

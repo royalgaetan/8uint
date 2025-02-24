@@ -6,14 +6,16 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="mx-32 mb-44 mt-24 min-h-[100vh] flex flex-col gap-4 "
+      className="max-md:mx-6 md:mx-14 lg:mx-44 mx-32 max-md:mb-28 mb-44 mt-24 min-h-[100vh] flex flex-col gap-4"
     >
-      <div className="flex flex-col gap-1 items-center mb-10 w-1/2">
-        <h2 className={`${DMSerifText.className} text-[#333333] text-6xl mb-3`}>
+      <div className="flex flex-col gap-1 items-center mb-10 md:w-[80%] max-md:w-full ">
+        <h2
+          className={`${DMSerifText.className} text-[#333333] text-6xl mb-3 max-md:text-5xl`}
+        >
           We build because we love that.
         </h2>
       </div>
-      <div className="grid grid-cols-4 gap-7 ">
+      <div className="grid lg:grid-cols-4 max-sm:grid-cols-2 grid-cols-3 max-md:gap-3 gap-7 ">
         <PortfolioCard
           key={"Vscrape"}
           projectName="Vscrape"

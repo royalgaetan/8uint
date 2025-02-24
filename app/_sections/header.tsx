@@ -7,12 +7,12 @@ import { DMSerifText } from "@/lib/fonts";
 
 const HeaderSection = () => {
   return (
-    <div className="h-[100vh] w-full bg-white px-4 pt-3 pb-10">
+    <div className="h-[100vh] w-full bg-white px-4 pt-3 pb-10 max-sm:p-2 max-sm:px-0 max-sm:pt-1">
       <div className="w-full h-full rounded-2xl overflow-hidden relative">
-        <div className="absolute z-10">
+        <div className="absolute z-10 h-full w-auto">
           <video
             controls={false}
-            className="object-cover"
+            className="object-cover max-lg:h-full"
             autoPlay
             muted
             loop
@@ -22,9 +22,9 @@ const HeaderSection = () => {
           </video>
         </div>
         <div className="absolute z-20 w-full h-full opacity-80 bg-gradient-to-t from-[#ED9182] from-40% to-[#82c9ff]"></div>
-        <div className="absolute z-30 w-full h-full flex flex-col bg-slate-600/10 items-start justify-between py-7 px-7">
+        <div className="absolute z-30 w-full h-full flex flex-col bg-slate-600/10 items-start justify-between py-7 px-7 max-sm:p-3 ">
           {/* Menu */}
-          <div className="flex h-auto w-full justify-between">
+          <div className="flex h-auto w-full justify-between items-center">
             <div className="flex flex-1 justify-start items-center">
               <Image
                 src={"/8uint logo no-bg.png"}
@@ -43,13 +43,15 @@ const HeaderSection = () => {
           </div>
 
           {/* Content */}
-          <div className="flex justify-between gap-5 pb-5">
-            <div className="ml-5">
-              <h2 className={`${DMSerifText.className} text-white text-7xl`}>
+          <div className="flex max-sm:flex-col justify-between gap-5 lg:gap-36 pb-5">
+            <div className="ml-5 max-sm:w-[80%] md:w-[60%] w-2/3 flex items-center">
+              <h2
+                className={`${DMSerifText.className} text-white lg:text-6xl max-sm:text-[2.5rem] md:text-5xl text-[2.3rem]`}
+              >
                 Building the next generations of Apps.
               </h2>
             </div>
-            <div className="mr-3 w-1/3">
+            <div className="mr-3 w-1/3 lg:w-1/3 max-sm:w-1/2 max-sm:ml-6 ">
               <DescriptionCard />
             </div>
           </div>

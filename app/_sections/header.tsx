@@ -44,9 +44,9 @@ const HeaderSection = () => {
 
           {/* Content */}
           <div className="flex max-sm:flex-col justify-between gap-5 lg:gap-36 pb-5">
-            <div className="ml-5 max-sm:w-[80%] md:w-[60%] w-2/3 flex items-center">
+            <div className="ml-5 max-sm:w-[95%] md:w-[60%] w-2/3 flex items-center">
               <h2
-                className={`${DMSerifText.className} text-white lg:text-6xl max-sm:text-[2rem] md:text-5xl text-[2.3rem]`}
+                className={`${DMSerifText.className} text-white lg:text-6xl max-sm:text-[2rem]/[1.2] md:text-5xl text-[2.3rem]`}
               >
                 Building the next generations of Apps.
               </h2>

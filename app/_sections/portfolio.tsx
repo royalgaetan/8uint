@@ -15,7 +15,7 @@ const Portfolio = () => {
           We build because we love that.
         </h2>
       </div>
-      <div className="grid lg:grid-cols-4 max-sm:grid-cols-2 grid-cols-3 max-md:gap-3 gap-7 ">
+      <div className="grid lg:grid-cols-4 max-sm:grid-cols-1 grid-cols-3 max-md:gap-3 gap-7 ">
         <PortfolioCard
           key={"Vscrape"}
           projectName="Vscrape"

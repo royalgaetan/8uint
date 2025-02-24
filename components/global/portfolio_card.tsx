@@ -20,7 +20,7 @@ const PortfolioCard = ({
 }: props) => {
   return (
     <Link href={link} target="_blank">
-      <div className="relative h-[350px] w-full bg-slate-300 rounded-sm group cursor-pointer overflow-clip">
+      <div className="relative h-[350px] max-sm:h-[300px] w-full bg-slate-300 rounded-sm group cursor-pointer overflow-clip">
         <div className="absolute z-10 top-0 h-full w-full flex flex-1 gap-1 items-center justify-center group-hover:opacity-0 transition-all duration-400">
           <div className="rounded-full w-10 h-10 relative p-2">
             <Image
